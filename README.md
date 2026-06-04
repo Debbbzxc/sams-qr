@@ -22,6 +22,10 @@
 
 ---
 
+<img width="1907" height="948" alt="Screenshot 2026-06-04 084104" src="https://github.com/user-attachments/assets/e9246d41-26bc-4e72-a89f-350d05136202" />
+
+---
+
 ## Architecture Overview
 
 ```
