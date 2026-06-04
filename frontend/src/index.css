@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-background text-slate-800 font-sans antialiased;
+    background:
+      radial-gradient(circle at top left, rgba(16, 185, 129, 0.13), transparent 34rem),
+      linear-gradient(135deg, #f7fbf8 0%, #eef8f2 45%, #f8fafc 100%);
+    min-height: 100vh;
+  }
+
+  ::selection {
+    @apply bg-emerald-200 text-emerald-950;
+  }
+}
+
+@layer components {
+  .app-page {
+    @apply min-h-screen bg-background text-slate-800;
+  }
+
+  .auth-page {
+    @apply min-h-screen flex items-center justify-center px-4 py-8;
+  }
+
+  .auth-card {
+    @apply w-full max-w-md rounded-2xl border border-white/70 bg-white/90 p-8 shadow-soft backdrop-blur;
+  }
+
+  .panel {
+    @apply rounded-2xl border border-slate-200/80 bg-surface/95 shadow-card;
+  }
+
+  .panel-pad {
+    @apply p-5 sm:p-6;
+  }
+
+  .field {
+    @apply w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-primary focus:ring-4 focus:ring-emerald-100;
+  }
+
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-slate-700;
+  }
+
+  .btn-primary {
+    @apply rounded-xl bg-gradient-to-r from-primary to-accent px-4 py-3 text-sm font-semibold text-white shadow-green transition hover:-translate-y-0.5 hover:shadow-lg disabled:translate-y-0 disabled:opacity-60;
+  }
+
+  .btn-muted {
+    @apply rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-emerald-200 hover:bg-emerald-50 hover:text-emerald-800;
+  }
+
+  .btn-danger {
+    @apply rounded-xl bg-rose-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-rose-700;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-emerald-700 to-teal-600 bg-clip-text text-transparent;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold;
+  }
+}

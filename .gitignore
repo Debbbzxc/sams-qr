@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+
+# Local environment files (contains secrets, do not commit)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Production and Dev Build outputs
+dist/
+dev-dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
