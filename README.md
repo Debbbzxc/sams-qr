@@ -1,8 +1,24 @@
-# SAMS QR: Student Attendance Management System
+<p align="center">
+  <img src="frontend/public/icon-192.png" width="120" alt="SAMS QR Logo" />
+</p>
 
-SAMS QR is a full-stack, timezone-safe, and Progressive Web App (PWA) enabled attendance tracking platform. Built with a React frontend and an Express/Node.js backend, the system allows instructors to generate dynamic QR codes for live class sessions and enables students to scan them using their mobile device cameras to log attendance instantly.
+<h1 align="center">SAMS QR: Student Attendance Management System</h1>
 
-The codebase is structured as a monorepo, containing dedicated services for the frontend client and the backend server.
+<p align="center">
+  A full-stack, timezone-safe, and Progressive Web App (PWA) enabled attendance tracking platform.
+</p>
+
+<p align="center">
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /></a>
+  <a href="https://vite.dev/"><img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"><img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=progressive-web-apps&logoColor=white" alt="PWA" /></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" /></a>
+  <a href="https://expressjs.com/"><img src="https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=white" alt="Express" /></a>
+  <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" /></a>
+  <a href="https://jwt.io/"><img src="https://img.shields.io/badge/JWT-black?style=flat-square&logo=JSON%20web%20tokens&logoColor=white" alt="JWT" /></a>
+  <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /></a>
+</p>
 
 ---
 
@@ -57,17 +73,18 @@ sams-project/
 ## Tech Stack
 
 ### Backend
-* **Runtime:** Node.js (ES Modules)
-* **Framework:** Express
-* **Database:** MongoDB (via Mongoose)
-* **Authentication:** JSON Web Tokens (JWT) & BcryptJS
-* **Deployment Compatibility:** Vercel Serverless Function configuration (`vercel.json`) with persistent database connection caching.
+* **Runtime:** Node.js (ES Modules) <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" height="20" align="center" /></a>
+* **Framework:** Express.js <a href="https://expressjs.com/"><img src="https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=white" height="20" align="center" /></a>
+* **Database:** MongoDB (via Mongoose) <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white" height="20" align="center" /></a>
+* **Authentication:** JSON Web Tokens (JWT) & BcryptJS <a href="https://jwt.io/"><img src="https://img.shields.io/badge/JWT-black?style=flat-square&logo=JSON%20web%20tokens&logoColor=white" height="20" align="center" /></a>
+* **Deployment Compatibility:** Vercel Serverless Function configuration (`vercel.json`) with persistent database connection caching. <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white" height="20" align="center" /></a>
 
 ### Frontend
-* **Build Tool:** Vite
-* **Framework:** React 19
+* **Build Tool:** Vite <a href="https://vite.dev/"><img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" height="20" align="center" /></a>
+* **Framework:** React 19 <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" height="20" align="center" /></a>
 * **Router:** React Router DOM (v7)
-* **Styling:** Tailwind CSS (v3) & React Icons
+* **Styling:** Tailwind CSS (v3) <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" height="20" align="center" /></a>
+* **PWA Capability:** Progressive Web Apps <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"><img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=progressive-web-apps&logoColor=white" height="20" align="center" /></a>
 * **Camera Integration:** HTML5-QRCode
 * **QR Generator:** QRCode
 * **HTTP Client:** Axios
