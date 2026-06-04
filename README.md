@@ -2,7 +2,7 @@
   <img src="frontend/public/icon-192.png" width="120" alt="SAMS QR Logo" />
 </p>
 
-<h1 align="center">SAMS QR: Student Attendance Management System</h1>
+<h1 align="center">SAMS QR: Student Attendance Monitoring System via QR Code</h1>
 
 <p align="center">
   A full-stack, timezone-safe, and Progressive Web App (PWA) enabled attendance tracking platform.
