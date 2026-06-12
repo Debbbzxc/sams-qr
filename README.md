@@ -187,3 +187,7 @@ globalThis.__samsMongoose = globalCache;
 To prevent server and client runtime mismatches, the application calculates range endpoints strictly within `Asia/Manila`:
 * **Backend (`backend/utils/dateTime.js`):** Generates database queries starting at `00:00:00` and ending at `23:59:59` UTC+8.
 * **Frontend (`frontend/src/utils/datetime.js`):** Formats localized ISO date keys using browser-native `Intl.DateTimeFormat` configurations for local reference.
+
+---
+
+🎓 *Software Engineering Project*
